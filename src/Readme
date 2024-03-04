@@ -1,0 +1,15 @@
+JSHELL
+
+
+-> JShell is a Read-Eval-Print Loop (REPL)
+-> JShell is particularly useful for learning Java, experimenting with new features, and testing code snippets before incorporating them into larger projects.
+ It provides a lightweight and interactive environment for Java developers to explore and prototype code.
+
+ -> jhell -> To enter jshell
+ -> /exit -> To exit
+
+
+
+ Precedence
+
+ % * / has greater precedence than  + -
