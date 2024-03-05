@@ -13,3 +13,20 @@ JSHELL
  Precedence
 
  % * / has greater precedence than  + -
+
+
+ -> The eight primitives defined in Java are int, byte, short, long, float, double, boolean and char.
+
+ Main method
+-> public: This keyword indicates that the main method can be accessed from anywhere. It has the most accessible level of visibility.
+-> static: The main method is declared as static so that it can be called without creating an instance of the class. This means it belongs to the class itself rather than to any instance of the class.
+-> void: The main method returns void, which means it does not return any value.
+-> main: This is the name of the method. It is the standard name recognized by the JVM as the entry point of the program.
+ String[] args: This parameter allows the main method to accept command-line arguments as an array of strings. When you run a Java program from the command line, you can pass arguments to it. These arguments are stored in the args array.
+
+
+ JVM is the runtime environment that executes Java bytecode.
+ JRE is a package that includes the JVM and necessary runtime libraries for running Java applications.
+ JDK is a development kit that includes the JRE, development tools, and additional libraries for Java application development.
+
+
