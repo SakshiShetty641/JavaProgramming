@@ -1,6 +1,4 @@
 JSHELL
-
-
 -> JShell is a Read-Eval-Print Loop (REPL)
 -> JShell is particularly useful for learning Java, experimenting with new features, and testing code snippets before incorporating them into larger projects.
  It provides a lightweight and interactive environment for Java developers to explore and prototype code.
@@ -29,4 +27,7 @@ JSHELL
  JRE is a package that includes the JVM and necessary runtime libraries for running Java applications.
  JDK is a development kit that includes the JRE, development tools, and additional libraries for Java application development.
 
-
+Naming Convention
+Snake Case: In snake case, all letters are lowercase, and words are separated by underscores. For example: my_variable_name, this_is_snake_case.
+Pascal Case: In Pascal case, also known as Upper Camel case, the first letter of each word is capitalized and there are no spaces. For example: MyVariableName, ThisIsPascalCase.
+Camel Case: Camel case, or Lower Camel case, is similar to Pascal case, but the first word starts with a lowercase letter. Subsequent words start with uppercase letters. For example: myVariableName, thisIsCamelCase.
