@@ -1,3 +1,5 @@
+package Encapsulation;
+
 //Exercise 1 -> Create 3 instances of a class
 class Studies {
 
