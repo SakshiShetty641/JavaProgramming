@@ -31,3 +31,17 @@ Naming Convention
 Snake Case: In snake case, all letters are lowercase, and words are separated by underscores. For example: my_variable_name, this_is_snake_case.
 Pascal Case: In Pascal case, also known as Upper Camel case, the first letter of each word is capitalized and there are no spaces. For example: MyVariableName, ThisIsPascalCase.
 Camel Case: Camel case, or Lower Camel case, is similar to Pascal case, but the first word starts with a lowercase letter. Subsequent words start with uppercase letters. For example: myVariableName, thisIsCamelCase.
+
+
+
+Stack and Heap
+-> the stack is used for managing method invocation and local variables in Java,
+while the heap is used for storing objects dynamically allocated during runtime.
+-> The stack is responsible for storing method invocations, local variables, and partial results.
+-> Objects created in Java are stored in the heap.
+
+
+Reference variables
+-> In Java, a reference variable is a variable that holds the memory address (reference) of an object rather than the actual object itself.
+->Unlike primitive variables, which hold the actual values, reference variables point to objects in memory.
+-> StringBuilder and StringBuffer classes are used to manipulate strings.
