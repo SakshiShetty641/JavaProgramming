@@ -53,6 +53,21 @@ when you need efficient insertion and deletion operations at arbitrary positions
 
 
 
+Equals and Hashcode method
+->
+In Java, equals() and hashCode() are two important methods defined in the Object class, which is the root class for all Java classes. They are often overridden in user-defined classes to provide customized behavior for equality comparison and hash code generation.
+
+equals(Object obj):
+This method is used to compare the equality of two objects.
+It takes an Object as a parameter and returns a boolean value indicating whether the objects are equal or not.
+The default implementation in the Object class checks for reference equality, meaning it returns true if and only if the two object references point to the same memory location.
+However, in most cases, you need to override this method to define a custom equality comparison based on the contents or attributes of the objects.
+
+hashCode():
+This method is used to generate a hash code value for an object.
+It returns an int value representing the hash code of the object.
+The default implementation in the Object class returns a memory address-based hash code (the internal memory address of the object in hexadecimal form).
+It's important to override hashCode() when you override equals(), as per the contract between these two methods: if two objects are equal according to the equals(Object obj) method, then calling hashCode() on each of the two objects must return the same integer result.
 
 
 Links
