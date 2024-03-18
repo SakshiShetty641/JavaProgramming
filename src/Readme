@@ -45,3 +45,16 @@ Reference variables
 -> In Java, a reference variable is a variable that holds the memory address (reference) of an object rather than the actual object itself.
 ->Unlike primitive variables, which hold the actual values, reference variables point to objects in memory.
 -> StringBuilder and StringBuffer classes are used to manipulate strings.
+
+-> ArrayList when you need fast random access and traversal, and LinkedList
+when you need efficient insertion and deletion operations at arbitrary positions within the list.
+
+
+
+
+
+
+
+Links
+-> https://norvig.com/21-days.html
+
